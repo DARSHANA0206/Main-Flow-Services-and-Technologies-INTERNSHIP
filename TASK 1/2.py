@@ -1,31 +1,26 @@
-# PRACTICE WRITING BASIC SCRIPTS TO PERFORM ARITHMETIC OPERATIONS, MANIPULATE STRINGS,AND USE CONDITIONAL STATEMENTS.
+def arithemetic():                                                     
+        a = int(input("Enter 1st number : "))                        
+        b = int(input("Enter 2nd number : "))                       
+        print("Addition : ",a+b)                                      
+        print("Subraction : ",a-b)                                      
+        print("Multiplication : ",a*b)                                  
+        print("Division : ",a/b)                                       
 
-def arithemetic():                                                      #arithemetic operations
-        a = int(input("Enter 1st number : "))                           #input
-        b = int(input("Enter 2nd number : "))                           #input
-        print("Addition : ",a+b)                                        #addition
-        print("Subraction : ",a-b)                                      #subraction
-        print("Multiplication : ",a*b)                                  #multiplication
-        print("Division : ",a/b)                                        #division
-
-def strings():                                                          #string manipulations
-    s = input("Enter a String : ")                                      #input
-    ss = input("Enter a string : ")                                     #input
+def strings():                                                          
+    s = input("Enter a String : ")                                      
+    ss = input("Enter a string : ")                                     
     print("Concatenation : ",s+ss)
-    print("Index of [0] : ",s[0])                                       #indexing
-    print("Index of [5] : ",s[5])                                       #indexing
-    print("Slicing [0:5] : ",s[0:5])                                    #slicing
+    print("Index of [0] : ",s[0])                                     
+    print("Index of [5] : ",s[5])                                     
+    print("Slicing [0:5] : ",s[0:5])                                    
 
-
-#main menu based program
-print("**********MENU**********")
 print("1 . Arithmetic Operations\n2 . String Operations\n3 . Exit\n")
-ch= int(input("Enter the choice :"))                                    #input
-if ch == 1:                                                             #conditional statements
-    arithemetic()                                                       #call function
+ch= int(input("Enter the choice :"))                                    
+if ch == 1:                                                             
+    arithemetic()                                                       
 elif ch == 2:
-    strings()                                                           #call function
+    strings()                                                           
 elif ch == 3:
-    print("Exiting")
+    print("Closing")
 else:
     print("Invalid Choice !")
