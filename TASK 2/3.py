@@ -1,5 +1,3 @@
-# PRACTICE BASIC DATA MANIPULATION OPERATIONS LIKE FILTERING, SORTING, AND GROUPING DATA.
-
 import numpy as np
 from scipy import stats
 import pandas as p
